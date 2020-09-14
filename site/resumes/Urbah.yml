@@ -1,0 +1,71 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesus
+    last_name: Urbaneja
+    
+    # Define yourself in 4-5 words
+    motto: Todos los dias se aprende algo nuevo.
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+        Venezolano apasionado y amante de la tecnologia y los animales, me encanta conocer lugares.  
+        Buscando la felicidad y tranquilidad plena.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: urbaneja026@gmail.com #optional
+    phone:  #optional
+    linkedin: https://www.linkedin.com/in/jesus-urbaneja-rojas-b950541b7/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Urbah
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: Basico
+
+      - idiom: español
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Animales
+
+      - item: Musica
+
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: TSU Administracion Tributaria
+      university: IUTIRLA
+      
+
+skills:
+    toolset:
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Sketch & Photoshop
+        level: 30%
